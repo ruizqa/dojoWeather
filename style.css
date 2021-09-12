@@ -1,0 +1,245 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Regular");
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./font/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./font/Roboto-Thin.ttf");
+    font-weight: thin;
+}
+
+
+
+
+nav{
+
+    background-color: #9fc5f8;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-family: "Roboto";
+
+}
+
+nav div{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav h1{
+    margin: 5px 10px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav h3{
+    margin-right: 40px;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 50px;
+    font-family: "Roboto";
+}
+
+main header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+    align-items: center;
+    margin: 0;
+    padding:0;
+
+}
+
+main header h2{
+    margin:0;
+    padding: 0;
+    font-size: 2.5em;
+    width:20%;
+}
+
+main header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+main header div h5{
+    padding-right: 20px;
+
+}
+
+
+select{
+    
+    margin: 20px 0px;
+    padding: 12px 0px;
+    border: 3px solid black;
+    min-width: 70px;
+    font-size: 10em;
+}
+
+
+
+
+
+main header div h5{
+    font-size: 1.3em;
+    margin-right: 10px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px -15px 20px -15px;
+    
+    
+
+}
+
+.main .day{
+    background-color: #eeeeee;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex: 1;
+    margin:0px 15px;
+
+}
+
+.main .day h3{
+    font-size: 1.8em;
+}
+
+
+.day img{
+
+    width: 60%;
+    border-radius: 50%;
+
+}
+
+.day h5{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+
+.temperatures{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1.55em;
+    
+    
+}
+
+.temperatures .max{
+
+    color:#d13633;
+    margin-right: 30%;
+    margin-left:-20%;
+    font-weight: bold;
+}
+
+
+.temperatures .min{
+
+    color:#337de4;
+    margin-right: 50%;
+
+}
+
+
+.cookie-msg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    align-items: center;
+    border: 5px solid black;
+    position:fixed;
+    bottom:0;
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom:10px;
+    font-family: "Roboto";
+}
+
+.cookie-msg img{
+
+    height: 5%;
+
+
+}
+
+.cookie-msg h4{
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left:0px;
+    font-size:1.5em;
+    
+
+}
+
+.cookie-msg h5{
+    margin: 0px;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: thin;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+h5 a{
+    color: #25669f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cookie-msg div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.cookie-msg button{
+    background-color: #8fb1df;
+    font-weight: bold;
+    font-size: 1.4em;
+    border: 4px solid black;
+    box-shadow: 3px 3px black;
+
+
+}
