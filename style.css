@@ -43,13 +43,13 @@ nav div{
 
 nav h1{
     margin: 5px 10px;
-    font-size: 3em;
+    font-size: 5.5vw;
     font-weight: bold;
 }
 
 nav h3{
-    margin-right: 40px;
-    font-size: 1.8em;
+    margin-right: 5vw;
+    font-size: 3vw;
     cursor: pointer;
 }
 
@@ -74,8 +74,8 @@ main header {
 main header h2{
     margin:0;
     padding: 0;
-    font-size: 2.5em;
-    width:20%;
+    font-size: 4.5vw;
+    width:25%;
 }
 
 main header div{
@@ -92,22 +92,23 @@ main header div h5{
 
 }
 
+.select-scale{
+    size: 3vw;
+    font-size: 2.5vw;
+}
 
 select{
+    margin: 0.5vw 0px;
+    padding: 1vw 0px;
+    border: 2.5px solid black;
+    min-width: 10vw;
     
-    margin: 20px 0px;
-    padding: 12px 0px;
-    border: 3px solid black;
-    min-width: 70px;
-    font-size: 10em;
 }
 
 
 
-
-
 main header div h5{
-    font-size: 1.3em;
+    font-size: 2.5vw;
     margin-right: 10px;
 
 }
@@ -137,7 +138,7 @@ main header div h5{
 }
 
 .main .day h3{
-    font-size: 1.8em;
+    font-size: 3.5vw;
 }
 
 
@@ -149,7 +150,7 @@ main header div h5{
 }
 
 .day h5{
-    font-size: 1.3em;
+    font-size: 2.5vw;
     margin-bottom: 5px;
 }
 
@@ -158,8 +159,8 @@ main header div h5{
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    font-size: 1.55em;
+    justify-content: space-evenly;
+    font-size: 3vw;
     
     
 }
@@ -167,8 +168,8 @@ main header div h5{
 .temperatures .max{
 
     color:#d13633;
-    margin-right: 30%;
-    margin-left:-20%;
+    margin-right: 20%;
+    /* margin-left:-20%; */
     font-weight: bold;
 }
 
@@ -176,7 +177,7 @@ main header div h5{
 .temperatures .min{
 
     color:#337de4;
-    margin-right: 50%;
+    /* margin-right: 30%; */
 
 }
 
@@ -194,6 +195,7 @@ main header div h5{
     margin-left:50px;
     margin-bottom:10px;
     font-family: "Roboto";
+    background-color: white;
 }
 
 .cookie-msg img{
@@ -207,14 +209,14 @@ main header div h5{
     margin-top: 5px;
     margin-bottom:5px;
     margin-left:0px;
-    font-size:1.5em;
+    font-size:3vw;
     
 
 }
 
 .cookie-msg h5{
     margin: 0px;
-    font-size: 1.2em;
+    font-size: 2.2vw;
     font-style: normal;
     font-weight: thin;
     padding-right: 15px;
@@ -237,9 +239,10 @@ h5 a{
 .cookie-msg button{
     background-color: #8fb1df;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 3vw;
     border: 4px solid black;
     box-shadow: 3px 3px black;
+    margin-right: 2%;
 
 
 }
