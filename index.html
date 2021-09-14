@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Weather Forecast</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact Gothic">
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="./normalize.css">
         
@@ -15,7 +14,7 @@
         <nav>
 
             <h1>DojoWeather</h1>
-            <div main="cities">
+            <div>
                 <a  onclick="loadReport()"><h3>Burbank</h3></a>
                 <a  onclick="loadReport()"><h3>Chicago</h3></a>
                 <a onclick="loadReport()"><h3>Dallas</h3></a>
@@ -30,8 +29,8 @@
                     <h5>show temperature in</h5>
                         <div class="select-scale">
                             <select onchange="convert(degrees,this)">
-                                <option><span>°C</span></option>
-                                <option></span>°F</span></option>
+                                <option>°C</option>
+                                <option>°F</option>
 
                             </select>
                         </div>    
@@ -39,10 +38,10 @@
 
             </header>
 
-            <container class="main">
+            <div class="main container">
                 <div class="day">
                     <h3>Today</h3>
-                    <img src="./assets/some_rain.png">
+                    <img src="./assets/some_rain.png" alt="rain">
                     <h5>some rain</h5>
                     <div class="temperatures">
                         <h4 class="max"><span>24</span>°C</h4>
@@ -52,7 +51,7 @@
 
                 <div class="day">
                     <h3>Tomorrow</h3>
-                    <img src="./assets/some_sun.png">
+                    <img src="./assets/some_sun.png" alt="sun">
                     <h5>some sun</h5>
                     <div class="temperatures">
                         <h4 class="max"><span>27</span>°C</h4>
@@ -62,7 +61,7 @@
 
                 <div class="day">
                     <h3>Friday</h3>
-                    <img src="./assets/some_clouds.png">
+                    <img src="./assets/some_clouds.png" alt= "clouds">
                     <h5>some clouds</h5>
                     <div class="temperatures">
                         <h4 class="max"><span>21</span>°C</h4>
@@ -72,27 +71,27 @@
 
                 <div class="day">
                     <h3>Saturday</h3>
-                    <img src="./assets/some_sun.png">
+                    <img src="./assets/some_sun.png" alt="sun">
                     <h5>some sun</h5>
                     <div class="temperatures">
                         <h4 class="max"><span>26</span>°C</h4>
                         <h4 class="min"><span>21</span>°C</h4>
                     </div>
                 </div>
-            </container>
+            </div>
 
             
 
         </main>
 
-        <container class="cookie-msg">
-            <img src="./assets/cookie.png">
+        <div class="cookie-msg">
+            <img src="./assets/cookie.png" alt="cookie">
             <div>
                 <h4>Stop! Cookie time</h4>
                 <h5>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a>Read more...</a></h5>
             </div>
             <button onclick="this.parentNode.remove()">I Accept</button>
-        </container>
+        </div>
 
         <script src="./script.js"></script>
     </body>
