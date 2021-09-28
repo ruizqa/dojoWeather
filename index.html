@@ -11,13 +11,19 @@
         
     </head>
     <body>
+
+        <nav>
+
+            
+        </nav>
+
         <nav>
 
             <h1>DojoWeather</h1>
             <div>
-                <a  onclick="loadReport()"><h3>Burbank</h3></a>
-                <a  onclick="loadReport()"><h3>Chicago</h3></a>
-                <a onclick="loadReport()"><h3>Dallas</h3></a>
+                <a  onclick="loadReport(this)"><h3>Burbank</h3></a>
+                <a  onclick="loadReport(this)"><h3>Chicago</h3></a>
+                <a onclick="loadReport(this)"><h3>Dallas</h3></a>
             </div>
 
         </nav>
@@ -28,9 +34,9 @@
                 <div>
                     <h5>show temperature in</h5>
                         <div class="select-scale">
-                            <select onchange="convert(degrees,this)">
-                                <option>°C</option>
-                                <option>°F</option>
+                            <select class="scale" onchange="convert(degrees)">
+                                <option value="metric">°C</option>
+                                <option value="imperial">°F</option>
 
                             </select>
                         </div>    
@@ -44,8 +50,8 @@
                     <img src="./assets/some_rain.png" alt="rain">
                     <h5>some rain</h5>
                     <div class="temperatures">
-                        <h4 class="max"><span>24</span>°C</h4>
-                        <h4 class="min"><span>18</span>°C</h4>
+                        <h4 class="max"><span>24</span></h4>
+                        <h4 class="min"><span>18</span></h4>
                     </div>
                 </div>
 
@@ -54,8 +60,8 @@
                     <img src="./assets/some_sun.png" alt="sun">
                     <h5>some sun</h5>
                     <div class="temperatures">
-                        <h4 class="max"><span>27</span>°C</h4>
-                        <h4 class="min"><span>19</span>°C</h4>
+                        <h4 class="max"><span>27</span></h4>
+                        <h4 class="min"><span>19</span></h4>
                     </div>
                 </div>
 
@@ -64,8 +70,8 @@
                     <img src="./assets/some_clouds.png" alt= "clouds">
                     <h5>some clouds</h5>
                     <div class="temperatures">
-                        <h4 class="max"><span>21</span>°C</h4>
-                        <h4 class="min"><span>16</span>°C</h4>
+                        <h4 class="max"><span>21</span></h4>
+                        <h4 class="min"><span>16</span></h4>
                     </div>
                 </div>
 
@@ -74,8 +80,8 @@
                     <img src="./assets/some_sun.png" alt="sun">
                     <h5>some sun</h5>
                     <div class="temperatures">
-                        <h4 class="max"><span>26</span>°C</h4>
-                        <h4 class="min"><span>21</span>°C</h4>
+                        <h4 class="max"><span>26</span></h4>
+                        <h4 class="min"><span>21</span></h4>
                     </div>
                 </div>
             </div>
