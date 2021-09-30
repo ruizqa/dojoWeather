@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather Forecast</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./normalize.css">
+        
+        
+    </head>
+    <body>
+
+        <nav>
+
+            
+        </nav>
+
+        <nav>
+
+            <h1>DojoWeather</h1>
+            <div>
+                <a><h3>Burbank</h3></a>
+                <a><h3>Chicago</h3></a>
+                <a><h3>Dallas</h3></a>
+            </div>
+
+        </nav>
+
+        <main>
+            <header>
+                <h2 class="city-title">San Jose</h2>
+                <div>
+                    <h5>show temperature in</h5>
+                        <div class="select-scale">
+                            <select class="scale">
+                                <option value="metric">°C</option>
+                                <option value="imperial">°F</option>
+
+                            </select>
+                        </div>    
+                </div>
+
+            </header>
+
+            <div class="main container text-center">
+                <div class="day">
+                    <h3>Today</h3>
+                    <img src="./assets/some_rain.png" alt="rain">
+                    <h5>some rain</h5>
+                    <div class="temperatures">
+                        <h4 class="max"><span>24</span></h4>
+                        <h4 class="min"><span>18</span></h4>
+                    </div>
+                </div>
+
+                <div class="day">
+                    <h3>Tomorrow</h3>
+                    <img src="./assets/some_sun.png" alt="sun">
+                    <h5>some sun</h5>
+                    <div class="temperatures">
+                        <h4 class="max"><span>27</span></h4>
+                        <h4 class="min"><span>19</span></h4>
+                    </div>
+                </div>
+
+                <div class="day">
+                    <h3>Friday</h3>
+                    <img src="./assets/some_clouds.png" alt= "clouds">
+                    <h5>some clouds</h5>
+                    <div class="temperatures">
+                        <h4 class="max"><span>21</span></h4>
+                        <h4 class="min"><span>16</span></h4>
+                    </div>
+                </div>
+
+                <div class="day">
+                    <h3>Saturday</h3>
+                    <img src="./assets/some_sun.png" alt="sun">
+                    <h5>some sun</h5>
+                    <div class="temperatures">
+                        <h4 class="max"><span>26</span></h4>
+                        <h4 class="min"><span>21</span></h4>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </main>
+
+        <div class="cookie-msg">
+            <img src="./assets/cookie.png" alt="cookie">
+            <div>
+                <h4>Stop! Cookie time</h4>
+                <h5>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a>Read more...</a></h5>
+            </div>
+            <button>I Accept</button>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
